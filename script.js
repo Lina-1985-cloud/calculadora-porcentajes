@@ -11,13 +11,13 @@ function CalcularPorcentaje(percent){
     document.getElementById('resultAmountPerson').value = totalPersona;
 
     document.getElementById('resultPerson').value = totalTip;
- 
+
 }
 
 //Función reset
 function reset(){
     document.getElementById('num').value = '';
-    document.getElementById('personas').value = '1';
+    document.getElementById('personas').value = '0';
     document.getElementById('resultAmountPerson').value = '';
     document.getElementById('resultPerson').value = '';
 }
